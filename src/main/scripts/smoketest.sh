@@ -1,0 +1,1 @@
+echo 'Executando SMOKE TEST'
