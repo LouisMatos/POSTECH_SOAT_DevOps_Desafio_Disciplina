@@ -75,7 +75,7 @@ jobs:
     environment:
       name: stg 
 
-    if: github.ref = 'refs/heads/develop'
+    if: github.ref == 'refs/heads/develop'
     steps:
       - uses: actions/checkout@v3
       - name: Deploy 
